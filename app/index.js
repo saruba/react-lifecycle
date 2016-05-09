@@ -39,6 +39,9 @@ const LifeCycleParentComponent = React.createClass({
 
 let childEvents = [];
 const LifeCycleChildComponent = React.createClass({
+    propTypes: {
+        text: React.PropTypes.string
+    },
     getDefaultProps(){
         let event = 'Child - getDefaultProps';
         console.log(event);
