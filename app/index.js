@@ -22,7 +22,7 @@ const LifeCycleParentComponent = React.createClass({
                         value={this.state.text}
                         onChange={this.onInputChange} />
                 </div>
-                <LifeCycleChildComponent text={this.state.text} />
+                <LifeCycleChildComponent inicial="pepito" text={this.state.text} />
             </div>
         );
     },
@@ -101,7 +101,7 @@ const LifeCycleChildComponent = React.createClass({
         childEvents.unshift(`${event} nextState: ${nextProps.text}, nextState: ${nextState.text}`);
     },
     componentDidUpdate(previousProps, previousState){
-        let event = 'Child - componentWillUpdate';
+        let event = 'Child - componentDidUpdate';
         console.log(event);
         console.log('previousProps: ', previousProps);
         console.log('previousState: ', previousState);

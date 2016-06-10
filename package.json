@@ -1,25 +1,34 @@
 {
-  "name": "react-lifecycle",
-  "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "author": "",
-  "license": "ISC",
-  "dependencies": {
-    "react": "^15.0.2",
-    "react-dom": "^15.0.2"
-  },
-  "devDependencies": {
-    "babel-core": "^6.8.0",
-    "babel-loader": "^6.2.4",
-    "babel-preset-es2015": "^6.6.0",
-    "babel-preset-react": "^6.5.0",
-    "babel-preset-stage-2": "^6.5.0",
-    "file-loader": "^0.8.5",
-    "webpack": "^1.13.0",
-    "webpack-dev-server": "^1.14.1"
-  }
+    "name": "react-lifecycle",
+    "version": "1.0.0",
+    "description": "",
+    "main": "index.js",
+    "repository" : {
+        "type" : "git",
+        "url" : "https://github.com/saruba/react-lifecycle"
+    },
+    "author": {
+        "name" : "Salva",
+        "email" : "saruba@gmail.com",
+        "url" : "https://github.com/saruba"
+    },
+    "scripts": {
+        "start": "node ./node_modules/webpack-dev-server/bin/webpack-dev-server.js"
+    },
+    "author": "",
+    "license": "ISC",
+    "dependencies": {
+        "react": "^15.0.2",
+        "react-dom": "^15.0.2"
+    },
+    "devDependencies": {
+        "babel-core": "^6.8.0",
+        "babel-loader": "^6.2.4",
+        "babel-preset-es2015": "^6.6.0",
+        "babel-preset-react": "^6.5.0",
+        "babel-preset-stage-2": "^6.5.0",
+        "file-loader": "^0.8.5",
+        "webpack": "^1.13.0",
+        "webpack-dev-server": "^1.14.1"
+    }
 }
