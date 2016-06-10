@@ -1,5 +1,5 @@
 # react-lifecycle
-Play with events lifecycle in react [react](https://facebook.github.io/react/)
+Play with events lifecycle in [react](https://facebook.github.io/react/)
 
 ####Start#####
 Clone, install and start
